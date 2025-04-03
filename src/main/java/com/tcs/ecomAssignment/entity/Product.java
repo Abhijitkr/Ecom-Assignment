@@ -24,19 +24,16 @@ public class Product {
 	public int getId() {
 		return id;
 	}
-
 	public String getName() {
 		return name;
+	}
+	public double getPrice() {
+		return price;
 	}
 
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	public double getPrice() {
-		return price;
-	}
-
 	public void setPrice(double price) {
 		this.price = price;
 	}
@@ -49,7 +46,6 @@ public class Product {
 
 	public Product() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 }
